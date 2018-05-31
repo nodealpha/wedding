@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Fonts
-import 'typeface-grand-hotel';
-import 'typeface-dancing-script';
-import 'typeface-open-sans';
-
 // Your top level component
 import App from './App'
 
