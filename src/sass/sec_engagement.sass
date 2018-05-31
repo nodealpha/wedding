@@ -1,0 +1,64 @@
+.sec-engagement
+  .sec-engagement-b
+    width: $wt-lg-base
+    margin: 0 auto
+    text-align: center
+    padding: 150px 0
+    .sec-engagement-split
+      width: 100%
+      .sec-engagement-split-b
+        display: table
+        width: 100%
+        .sec-engagement-split-i
+          display: table-cell
+          vertical-align: middle
+          width: 50%
+          &:first-child
+            width: 30%
+            padding-right: 30px
+          &:last-child
+            width: 70%
+            padding-left: 30px
+          .sec-engagement-split-cntx
+            text-align: right
+            .sec-engagement-split-h
+              +grand-hotel-font()
+              font-size: 36px
+              margin-bottom: 40px
+            .sec-engagement-split-time
+              +open-sans-font()
+              font-size: 24px
+              margin-bottom: 40px
+            .sec-engagement-split-addr-h
+              +open-sans-font()
+              font-size: 24px
+              margin-bottom: 25px
+            .sec-engagement-split-addr-p
+              +open-sans-font()
+              font-size: 18px
+              line-height: 24px
+              margin-bottom: 40px
+            .sec-engagement-split-addr-btn
+              button
+                padding: 8px 16px
+                +open-sans-font()
+                background-color: $colr-btn-red
+                font-size: 14px
+                text-transform: uppercase
+                font-weight: 600
+                border: 0
+                outline: 0
+                border-radius: 3px
+                color: $colr-white
+                cursor: pointer
+                &:hover
+                  background-color: $colr-btn-red-hover
+          .sec-engagement-split-med
+            img
+              width: 100%
+      .sec-engagement-invite
+        padding-top: 150px
+        font-size: 48px
+        color: $colr-btn-red-hover
+        +dancing-script-font()
+

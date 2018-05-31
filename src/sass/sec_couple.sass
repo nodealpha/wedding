@@ -1,0 +1,39 @@
+.sec-couple
+  .sec-couple-b
+    width: $wt-lg-base
+    margin: 0 auto
+    text-align: center
+    padding: 150px 0
+    .couple-h
+      +grand-hotel-font()
+      font-size: 48px
+      font-weight: normal
+      margin-bottom: 40px
+    .couple-h2
+      +open-sans-font()
+      font-size: 24px
+      font-weight: normal
+      color: $colr-txt-1
+    .couple-med
+      margin-top: 80px
+      text-align: center
+      .couple-med-b
+        +clearfix()
+        display: inline-block
+        .couple-med-i
+          width: 300px
+          height: 300px
+          background: grey
+          float: left
+          border-radius: 5px
+          background-position: center
+          background-size: cover
+          background-repeat: no-repeat
+          &:first-child
+            margin-right: 30px
+          &:last-child
+            margin-left: 30px
+          &.ash
+            background-image: url($ash-1-url)
+          &.shan
+            background-image: url($shan-1-url)
