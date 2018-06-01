@@ -17,10 +17,14 @@ class Engagement extends React.Component {
               <div className="sec-engagement-split-i">
                 <div className="sec-engagement-split-cntx">
                   <div className="sec-engagement-split-h">Engagement</div>
-                  <div className="sec-engagement-split-time">6:30pm to 8:00pm</div>
-                  <div className="sec-engagement-split-addr-h">Vasanta Bhavan</div>
-                  <div className="sec-engagement-split-addr-p">3rd Avenue, Anna Arch Rd, AA Block, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040</div>
-                  <div className="sec-engagement-split-addr-btn"><button type="button">Direct me</button></div>
+                  <div className="sec-engagement-split-time">6:00pm to 8:00pm</div>
+                  <div className="sec-engagement-split-addr-h">Paradise Party Hall</div>
+                  <div className="sec-engagement-split-addr-p">No 145, AA Block, 1st Floor, 3rd Avenue, (Near Anna Nagar Vasantha Bhavan), Anna Nagar, Chennai - 600040</div>
+                  <div className="sec-engagement-split-addr-btn">
+                    <button type="button" onClick={() => {
+                      window.open('https://goo.gl/maps/HLTvTq1fkQJ2');
+                    }}>Direct me</button>
+                  </div>
                 </div>
               </div>
               <div className="sec-engagement-split-i">
